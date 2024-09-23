@@ -6,7 +6,7 @@ import { isBrowser } from '@/lib/utils'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Code } from 'react-notion-x/build/third-party/code'
-import {Mailchimp} from '@/components/Mailchimp'
+import { Mailchimp } from '@/components/Mailchimp'
 
 const Collection = dynamic(() =>
   import('react-notion-x/build/third-party/collection').then((m) => m.Collection), { ssr: true }
